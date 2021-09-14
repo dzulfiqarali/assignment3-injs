@@ -59,6 +59,10 @@ const calculator = (a, b, operator) => {
     }
 }
 
+const print = (text) => {
+    console.log(text)
+}
+
 module.exports = {
     add, sub, mul, div, calculator
 }
